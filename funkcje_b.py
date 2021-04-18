@@ -1,0 +1,1 @@
+from funkcje_a import add
