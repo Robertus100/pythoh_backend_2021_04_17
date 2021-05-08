@@ -56,4 +56,3 @@ class TestCircle:
             circle.radius = -10
 
         assert "Radius cannot be negative" in str(exc_info.value)
-

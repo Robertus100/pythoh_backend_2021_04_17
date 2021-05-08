@@ -31,3 +31,5 @@ class Circle:
         else:
             self.__radius = x
 
+    def Metoda(self):
+        pass
