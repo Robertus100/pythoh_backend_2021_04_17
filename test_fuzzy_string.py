@@ -35,7 +35,7 @@ class TestFuzzyString:
 
     # Testy do Bonus 1
     # zakomentuj dekorator by testy były brane pod uwagę
-    @pytest.mark.xfail
+    # @pytest.mark.xfail
     def test_other_string_comparisons(self):
         apple = FuzzyString("Apple")
         assert apple > "animal"
@@ -66,7 +66,7 @@ class TestFuzzyString:
         assert not wroclaw <= warsaw
 
     # Bonus 2
-    @pytest.mark.xfail
+    # @pytest.mark.xfail
     def test_string_operators(self):
         hello = FuzzyString("heLlO")
         assert hello + "!" == "helLo!"
@@ -85,7 +85,7 @@ class TestFuzzyString:
         assert new in new_delhi
 
     # Bonus 3    
-    @pytest.mark.xfail
+    # @pytest.mark.xfail
     def test_slicing(self):
         hello = FuzzyString("heLlO")
         assert hello[-1] == "O"
@@ -93,7 +93,7 @@ class TestFuzzyString:
         assert hello[1:3] == "eL"
 
     # Bonus 4
-    @pytest.mark.xfail
+    # @pytest.mark.xfail
     def test_normalizes_strings(self):
         string = FuzzyString("\u00df and ss")
         assert string == "ss and \u00df"
