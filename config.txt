@@ -1,8 +1,0 @@
-09:00-10:45 Praca
-10:45-11:00 Przerwa
-11:00-12:45 Praca
-12:45-13:45 Przerwa obiadowa
-13:45-15:15 Praca
-15:15-15:30 Przerwa
-15:30-17:00 Praca
-17:00 Koniec
