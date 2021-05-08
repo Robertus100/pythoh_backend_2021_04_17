@@ -1,0 +1,1 @@
+print("Wchodzę do paczki")
