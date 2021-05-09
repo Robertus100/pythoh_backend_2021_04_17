@@ -5,6 +5,7 @@ from collections import defaultdict
 parser = argparse.ArgumentParser()
 parser.add_argument("-f", "--file")
 parser.add_argument("-o", "--outfile")
+parser.add_argument("-g", action='store_true') # domyślna wartość False
 args = parser.parse_args()
 
 
