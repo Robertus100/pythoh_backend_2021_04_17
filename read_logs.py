@@ -1,3 +1,4 @@
+import csv
 import argparse
 from collections import defaultdict
 
@@ -13,8 +14,10 @@ user_last_login = {}
 user_total_time = defaultdict(int)
 
 with open(f_name) as f:
-    for line in f:
-        login, action, time = line.strip().split(";")
+    reader = csv.reader(f, delimiter=";")
+    for i, line in enumerate(reader):
+        if i == 0: continue
+        login, action, time = line
         if action == "LOGIN":
             user_last_login[login] = int(time)
         else:
