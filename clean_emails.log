@@ -1,0 +1,30 @@
+2021-05-09 11:33:32,065 Info message
+2021-05-09 11:33:32,065 Warning
+2021-05-09 11:33:32,065 Błąd
+2021-05-09 11:33:32,065 Critical message
+2021-05-09 11:33:32,066 Generuję 10 zestawów emaili 
+2021-05-09 11:33:32,066 Wystąpił błąd
+Traceback (most recent call last):
+  File "clean_emails.py", line 35, in generate_data
+    1/0
+ZeroDivisionError: division by zero
+2021-05-09 11:33:40,715 Info message
+2021-05-09 11:33:40,715 Warning
+2021-05-09 11:33:40,715 Błąd
+2021-05-09 11:33:40,715 Critical message
+2021-05-09 11:33:40,716 Generuję 10 zestawów emaili 
+2021-05-09 11:33:40,716 Wystąpił błąd
+Traceback (most recent call last):
+  File "clean_emails.py", line 35, in generate_data
+    1/0
+ZeroDivisionError: division by zero
+2021-05-09 11:33:47,581 Info message
+2021-05-09 11:33:47,581 Warning
+2021-05-09 11:33:47,581 Błąd
+2021-05-09 11:33:47,581 Critical message
+2021-05-09 11:33:47,582 Generuję 10 zestawów emaili 
+2021-05-09 11:33:47,583 Wystąpił błąd
+Traceback (most recent call last):
+  File "clean_emails.py", line 35, in generate_data
+    1/0
+ZeroDivisionError: division by zero
